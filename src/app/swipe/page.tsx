@@ -1,6 +1,8 @@
+"use client";
+
 import React, { useState, useEffect } from 'react'
-import { Layout } from '../components/Layout'
-import { SwipeCard } from '../components/SwipeCard'
+import { Layout } from '@/components/Layout'
+import { SwipeCard } from '@/components/SwipeCard'
 
 const MOCK_PROFILES = [
   {
